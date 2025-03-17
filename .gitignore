@@ -1,0 +1,18 @@
+*.pyc
+# Ignore all .png files
+*.png
+
+# Ignore all .dat files
+*.dat
+*.exr
+*.log
+
+.vscode
+.idea
+output
+build
+tensorboard_3d
+screenshots
+third_party_libs
+data
+wandb
