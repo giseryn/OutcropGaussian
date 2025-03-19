@@ -75,7 +75,7 @@ python scripts/generate_depth.py --input_dir path/to/images --output_dir path/to
 Run the `ablation_experiments.py` script to execute all experiments:
 
 ```bash
-python ablation_experiments.py --data_dir path/to/dataset
+python ablation_experiments.py
 ```
 
 ### Experiment Details
