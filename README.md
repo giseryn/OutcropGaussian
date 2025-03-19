@@ -26,13 +26,18 @@ cd OutcropGaussian
 
 2. Create and activate a virtual environment:
 ```bash
-conda create -n 3dgs-outcrop python=3.8
-conda activate 3dgs-outcrop
+conda env create --file environment.yml
+conda activate OutcropGaussian
 ```
 
 3. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install matplotlib
+pip install scikit-learn
+pip install opencv-python
+pip install wandb
+pip install huggingface-hub
+pip install pandas
 ```
 
 4. **Important**: Rasterization Code Installation
@@ -43,7 +48,7 @@ cd submodules/diff-gaussian-rasterization
 pip install -e .
 ```
 
-5. Install other dependencies:
+5. Install other submodule dependencies:
 ```bash
 cd submodules/simple-knn
 pip install -e .

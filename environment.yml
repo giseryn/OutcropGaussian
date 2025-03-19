@@ -1,4 +1,4 @@
-name: DOM_Gaussian_env
+name: OutcropGaussian
 channels:
   - pytorch
   - conda-forge
