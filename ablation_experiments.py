@@ -589,8 +589,8 @@ def ablation_experiments():
 
 if __name__ == '__main__':
 
-    # data_dir = 'xjsd_north'
-    data_dir = 'Bispo_g5_select'
+
+    data_dir = 'data_path'
     data_path = f'data/{data_dir}'
     depth_path = f'data/{data_dir}/depth'
 
